@@ -1,0 +1,25 @@
+name: Feature Request
+description: Use this template for requesting a new feature or change.
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You should only use this form to request a change or new feature, to report a bug or issue use the [bug report form](https://github.com/odido-community/wiki/issues).
+  - type: checkboxes
+    attributes:
+      label: Pre-work
+      options:
+      - label: I have searched open and closed feature request to make sure this or similar feature request does not already exist.
+        required: true
+      - label: I agree to follow this project's [Code of Conduct]().
+        required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the solution or feature you'd like, you should also mention if this solves a problem.
+      placeholder: Be sure to keep it clear and concise.
+    validations:
+      required: true

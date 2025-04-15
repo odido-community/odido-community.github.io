@@ -1,0 +1,35 @@
+name: Bug Report
+description: Use this template to report a bug or issue.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! You should only use this form for issues, to request a change or feature use the [feature request form](https://github.com/odido-community/wiki/issues).
+  - type: checkboxes
+    attributes:
+      label: Pre-work
+      description: |
+        Before opening an issue make sure you've checked the resources below first, any issues that could have been solved by reading the docs or existing issues will be closed.
+      options:
+      - label: I have searched open and closed issues.
+        required: true
+      - label: I agree to follow this project's [Code of Conduct]().
+        required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the issue you experienced, please be clear and concise.
+      placeholder: I went to the coffee pot and it was empty.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: In a perfect world, what should have happened?
+      placeholder: When I got to the coffee pot, it should have been full.
+    validations:
+      required: true
