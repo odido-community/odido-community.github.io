@@ -1,10 +1,20 @@
 site_name: Odido Community Wiki
 site_url: https://odido-community.github.io/wiki/
-
 nav:
-  - Home: index.md
- # - Hardware:
-
+ # - Home: index.md
+  - Odido Hardware:
+    - Modems:
+      - Fixed:
+        - Zyxel T50: hardware/zyxel-vmg8825.md
+        - Zyxel T54: hardware/zyxel-dx5401.md
+        - Zyxel T56: hardware/zyxel-ex5601.md
+        - Zyxel T75: hardware/zyxel-ex7501.md
+      - Fixed Wireless Access: 
+        - Zyxel NR5307: hardware/zyxel-nr5307.md
+#  - Own Equipment:
+#    - Routers:
+#      - Mikrotik: third-party/mikrotik.md
+  - Contributing: contributing.md
 
 theme:
   name: material
@@ -12,32 +22,46 @@ theme:
     - search.suggest
     - navigation.footer
     - navigation.tracking
-    - navigation.tabs
+    - navigation.sections
+#    - navigation.tabs
     - toc.follow
     - navigation.top
+    - content.code.copy
+    - content.footnote.tooltips
+
 
   icon:
-      repo: fontawesome/brands/github
-  palette:
+    repo: fontawesome/brands/github
 
-    # Palette toggle for light mode
+  palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: indigo
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/toggle-switch-off
+        name: Switch to system preference
 
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - tables
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.blocks.caption
+
 
 plugins:
   - search

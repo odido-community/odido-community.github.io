@@ -1,7 +1,4 @@
----
-hide:
-  - navigation
----
+
 
 # Welcome to the Odido Community Wiki!
 
@@ -13,8 +10,7 @@ This Wiki is your go-to resource for everything related to setting up and optimi
 We cover a wide range of topics, including:
 
 * Modem setup and configuration
-* Router bridging and custom firmware options
-* Port forwarding, DMZ, and firewall settings
+* Port forwarding and DMZ
 * Static IP and DNS tweaks
 * Wi-Fi optimization and mesh systems
 * VoIP settings and SIP configuration
