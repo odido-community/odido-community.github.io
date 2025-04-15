@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+---
+hide:
+  - navigation
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome to the Odido Community Wiki!
 
-## Commands
+This Wiki is your go-to resource for everything related to setting up and optimizing your internet connection as an Odido customer. Whether you're a new user looking to get started or a tech-savvy tinkerer exploring advanced configurations, you'll find step-by-step guides, troubleshooting tips, and community-tested solutions right here.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! info "Disclaimer"
+    This community wiki is not officially affiliated with or endorsed by Odido. All content is created and maintained by users and tech enthusiasts based on real-world experiences. Use the information at your own discretion, and always double-check with official Odido documentation or support when needed.
 
-## Project layout
+We cover a wide range of topics, including:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Modem setup and configuration
+* Router bridging and custom firmware options
+* Port forwarding, DMZ, and firewall settings
+* Static IP and DNS tweaks
+* Wi-Fi optimization and mesh systems
+* VoIP settings and SIP configuration
+* Advanced networking setups and smart home integrations
+
+This wiki is community-driven, built by users, for users. If you’ve discovered a helpful setup, solved a tricky problem, or want to share your expertise, feel free to contribute!
