@@ -1,6 +1,5 @@
 # Contributing
 
-
 ## How to Contribute
 
 We welcome your contributions! To get started, please follow these steps:
