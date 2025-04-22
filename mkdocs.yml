@@ -12,9 +12,9 @@ nav:
     - Access Points:
       - Zyxel WX5600-T0: hardware/zyxel-wx5600.md
       - Zyxel WAP6807: hardware/zyxel-wap6807.md
-#  - Own Equipment:
-#    - Routers:
-#      - Mikrotik: third-party/mikrotik.md
+  - Own Equipment:
+    - Routers:
+      - Mikrotik: third-party/mikrotik.md
   - Contributing: contributing.md
 
 theme:
