@@ -12,6 +12,8 @@ nav:
     - Access Points:
       - Zyxel WX5600-T0: hardware/zyxel-wx5600.md
       - Zyxel WAP6807: hardware/zyxel-wap6807.md
+  - Guides:
+    - Port Forwarding: guides/portforwarding.md
   - Own Equipment:
     - Routers:
       - Mikrotik: third-party/mikrotik.md
@@ -53,7 +55,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - tables
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -61,7 +67,6 @@ markdown_extensions:
   - md_in_html
   - footnotes
   - pymdownx.blocks.caption
-
 
 plugins:
   - search

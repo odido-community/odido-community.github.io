@@ -10,21 +10,21 @@ We welcome your contributions! To get started, please follow these steps:
 2. Create a New Branch
     - Once you have your fork, create a new branch to work on. Name it something descriptive of the changes you're making.
 
-For example:
+    For example:
 
-```bash
-git checkout -b fix/typo-in-readme
-```
+    ```bash
+    git checkout -b fix/typo-in-readme
+    ```
 
 3. Make Your Changes
-Make changes to the documentation. Use mkdocs serve to preview the site locally.
+    - Make changes to the documentation. Use mkdocs serve to preview the site locally.
 
 4. Commit Your Changes
-After making your changes, commit them with a clear message explaining what you did.
-```bash
-git add .
-git commit -m "Fix typo in README"
-```
+    - After making your changes, commit them with a clear message explaining what you did.
+    ```bash
+    git add .
+    git commit -m "Fix typo in README"
+    ```
 
 5. Push Your Changes
 Push your changes to your forked repository:
