@@ -1,16 +1,17 @@
 site_name: Odido Community Wiki
-site_url: https://odido-community.github.io/wiki/
+site_url: https://odido-community.github.io/
 nav:
- # - Home: index.md
+  - Home: index.md
   - Odido Hardware:
     - Modems:
-      - Fixed:
-        - Zyxel T50: hardware/zyxel-vmg8825.md
-        - Zyxel T54: hardware/zyxel-dx5401.md
-        - Zyxel T56: hardware/zyxel-ex5601.md
-        - Zyxel T75: hardware/zyxel-ex7501.md
-      - Fixed Wireless Access: 
-        - Zyxel NR5307: hardware/zyxel-nr5307.md
+      - Zyxel T50: hardware/zyxel-vmg8825.md
+      - Zyxel T54: hardware/zyxel-dx5401.md
+      - Zyxel T56: hardware/zyxel-ex5601.md
+      - Zyxel T75: hardware/zyxel-ex7501.md
+      - Zyxel NR5307: hardware/zyxel-nr5307.md
+    - Access Points:
+      - Zyxel WX5600-T0: hardware/zyxel-wx5600.md
+      - Zyxel WAP6807: hardware/zyxel-wap6807.md
 #  - Own Equipment:
 #    - Routers:
 #      - Mikrotik: third-party/mikrotik.md
@@ -23,7 +24,6 @@ theme:
     - navigation.footer
     - navigation.tracking
     - navigation.sections
-#    - navigation.tabs
     - toc.follow
     - navigation.top
     - content.code.copy
