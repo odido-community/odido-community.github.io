@@ -5,8 +5,6 @@ The **Zyxel T54 (DX5401-B0/B1)** is a high-performance dual-band WiFi 6 router e
 !!! info "Deployment"
     This model is the **default router for xDSL customers**, though it has also been supplied to fiber customers in the past.
 
-
-
 ## Key Features
 
 - **WiFi 6 (802.11ax)** for enhanced wireless performance and efficiency  
@@ -15,8 +13,6 @@ The **Zyxel T54 (DX5401-B0/B1)** is a high-performance dual-band WiFi 6 router e
 - **VoIP support** with two FXS ports for phone service  
 - **Flexible configuration** through a user-friendly web interface  
 - **Parental controls** and guest network support for better network management
-
-
 
 ## Specifications
 
@@ -44,13 +40,10 @@ The **Zyxel T54 (DX5401-B0/B1)** is a high-performance dual-band WiFi 6 router e
 - 1x USB 3.0 port for media sharing, printer sharing, or network storage (NAS)  
 - Can be used for SMB or DLNA services  
 
-
-
 ## Configuration Options
-
 The Zyxel T54 offers a wide range of options to customize and optimize your network environment:
 
--x **Wireless Settings**  
+- **Wireless Settings**  
     - Change SSID (WiFi name) and password  
     - Enable or disable wireless radios  
     - Separate SSIDs for each frequency band  
@@ -84,20 +77,12 @@ The Zyxel T54 offers a wide range of options to customize and optimize your netw
     - Configure tone signaling for better VoIP compatibility  
     - Enable/disable caller ID features  
 
-
-
 ## Admin Access
-
 - Access the router admin panel via browser: `https://192.168.1.1`  
 - Default login credentials are printed on the device label  
 - It is highly recommended to change the default password during setup for security reasons  
 
-
-
 ## Firmware Updates
-
 Odido  periodically releases firmware updates to improve performance and fix security vulnerabilities.  
-
-
 
 [^1]: These speeds are theoretical maximums. Actual speeds may vary depending on network conditions and client device capabilities.

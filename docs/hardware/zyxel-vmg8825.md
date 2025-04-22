@@ -1,6 +1,6 @@
-
+---
 status: deprecated
-
+---
 
 # Zyxel T50 (VMG8825-T50)
 
@@ -10,7 +10,7 @@ The **Zyxel T50 (VMG8825-T50)** is a high-performance dual-band WiFi 6 router en
     This model is **no longer actively installed**. It has been succeeded by:
 
     - [**Zyxel T54**](zyxel-dx5401.md) for xDSL connections  
-    - [**Zyxel T56**](zyxel-ex5601.md) for fiber connections
+    - [**Zyxel T56**](zyxel-ex5601.md) for Fiber connections
 
 ## Key Features
 
