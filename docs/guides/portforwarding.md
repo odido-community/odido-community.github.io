@@ -45,7 +45,7 @@ graph LR
 
 ![Image title](../assets/images/PortForwarding_SameDstSrc.PNG)
 
-### Diffrent Destination and Source Port
+### Different Destination and Source Port
 In this setup, the external (internet) port is different from the internal (local network) port. This allows you to map one external port to a different internal port, which can be useful for services that require specific internal configurations or if you're running multiple services on the same public port.
 
 ``` mermaid
