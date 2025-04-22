@@ -32,7 +32,7 @@ This model is typically supplied as a WiFi extender using EasyMesh-compatible ga
 - **Single SSID** operation for entire home network  
 
 ## Configuration Options
-The Zyxel WX5600-T0 is configured automatically via the main router. There are no congifuration settings to be changed on the devices directly.
+The Zyxel WX5600-T0 is configured automatically via the main router. There are no configuration settings to be changed on the devices directly.
 
 ## Admin Access
 - Default access via browser at the assigned IP (e.g., `192.168.1.x`)  
