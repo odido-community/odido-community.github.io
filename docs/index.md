@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Welcome to the Odido Community Wiki!
 
 This Wiki is your go-to resource for everything related to setting up and optimizing your internet connection as an Odido customer. Whether you're a new user looking to get started or a tech-savvy tinkerer exploring advanced configurations, you'll find step-by-step guides, troubleshooting tips, and community-tested solutions right here.
