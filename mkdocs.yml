@@ -12,8 +12,11 @@ nav:
     - Access Points:
       - Zyxel WX5600-T0: hardware/zyxel-wx5600.md
       - Zyxel WAP6807: hardware/zyxel-wap6807.md
+  - General:
+    - EasyMesh: general/easymesh.md
   - Guides:
     - Port Forwarding: guides/portforwarding.md
+    - Geust Network: guides/geust-network.md
   - Own Equipment:
     - Routers:
       - Mikrotik: third-party/mikrotik.md
@@ -30,7 +33,7 @@ theme:
     - navigation.top
     - content.code.copy
     - content.footnote.tooltips
-
+    - content.action.edit
 
   icon:
     repo: fontawesome/brands/github
