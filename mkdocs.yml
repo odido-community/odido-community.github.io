@@ -16,7 +16,7 @@ nav:
     - EasyMesh: general/easymesh.md
   - Guides:
     - Port Forwarding: guides/portforwarding.md
-    - Geust Network: guides/geust-network.md
+    - Guest Network: guides/guest-network.md
   - Own Equipment:
     - Routers:
       - Mikrotik: third-party/mikrotik.md

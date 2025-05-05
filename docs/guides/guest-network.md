@@ -1,4 +1,4 @@
-# Geust Network
+# Guest Network
 
 All Odido modems offer the option to enable a Guest Network.
 This network allows you to connect guest devices — or any devices you don’t want on your main network — to the internet securely.
