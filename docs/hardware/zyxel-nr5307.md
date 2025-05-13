@@ -1,6 +1,6 @@
-
+---
 status: new
-
+---
 
 # Zyxel NR5307
 The **Zyxel NR5307** is a powerful 5G NR router with WiFi 6 technology, built to provide ultra-fast internet over mobile networks. It's ideal for locations without fixed-line broadband.
