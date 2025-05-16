@@ -14,6 +14,9 @@ nav:
       - Zyxel WAP6807: hardware/zyxel-wap6807.md
   - General:
     - EasyMesh: general/easymesh.md
+    - Fiber:
+      - PON: general/fiber/pon-overview.md
+      - Point-to-Point: general/fiber/ptp-overview.md
   - Guides:
     - Port Forwarding: guides/portforwarding.md
     - Guest Network: guides/guest-network.md
@@ -77,6 +80,6 @@ plugins:
 
 copyright: Copyright &copy; 2025 Odido Community
 
-repo_url: https://github.com/odido-community/wiki
-repo_name: odido-community/wiki
+repo_url: https://github.com/odido-community/odido-community.github.io
+repo_name: odido-community/odido-community.github.io
 edit_uri: edit/master/docs/
