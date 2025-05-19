@@ -16,9 +16,7 @@ permissions:
 
 jobs:
   build_mkdocs:
-    if: >
-      github.event_name != 'pull_request' ||
-      !contains(join(github.event.pull_request.labels.*.name), 'skip-pages-build')
+    if: "!contains(join(github.event.pull_request.labels.*.name), 'skip-pages-build')"
     runs-on: ubuntu-latest
 
     steps:
