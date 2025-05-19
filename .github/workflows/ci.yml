@@ -36,4 +36,4 @@ jobs:
 
       - name: Run codespell on docs
         run: |
-          codespell docs/ --ignore-words-list="nd" --skip=".git,*.svg,*.png,*.jpg,*.ico"
+          codespell docs/ --ignore-words-list="nd" --skip=".git,*.svg,*.png,*.jpg,*.ico,OLT"
